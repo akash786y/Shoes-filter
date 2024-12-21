@@ -23,12 +23,12 @@ function App() {
     product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) !== -1
   )
 
-  //Radio filter
+  //Remdio filter
   const handleChange= event =>{
     setSelectedCategory(event.target.value)
   }
 
-  //Buttons filter
+  // see this is a Buttons filter
   const handleClick = event =>{
     setSelectedCategory(event.target.value)
   }
