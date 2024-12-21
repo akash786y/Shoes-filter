@@ -75,6 +75,10 @@ function App() {
       <Navigation query={query} handleInputChange={handleInputChange}/>
       <Hero img={'https://w0.peakpx.com/wallpaper/830/1014/HD-wallpaper-sneakers-shoes-legs-asphalt-tablet-laptop-background.jpg'}/>
       <Recommended handleClick={handleClick}/>
+
+      <Products result={result}/>
+      <Products result={result}/>
+      <Products result={result}/>
       <Products result={result}/>
     </div>
   );
