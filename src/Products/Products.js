@@ -6,6 +6,10 @@ function Products({result}) {
       <div>
         <section className='card-container'>
           {result}
+          {result}
+          {result}
+          {result}
+          {result}
         </section>
       </div>
   );
