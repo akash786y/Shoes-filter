@@ -28,7 +28,7 @@ function App() {
     setSelectedCategory(event.target.value)
   }
 
-  //Buttons filter
+  //this is a Buttons filter
   const handleClick = event =>{
     setSelectedCategory(event.target.value)
   }
