@@ -30,7 +30,7 @@ function App() {
     setSelectedCategory(event.target.value)
   }
 
-  // this is a Buttons filter
+  // see this is a Buttons filter
   const handleClick = event =>{
     setSelectedCategory(event.target.value)
   }
@@ -77,9 +77,17 @@ function App() {
       <Navigation query={query} handleInputChange={handleInputChange}/>
       <Hero img={'https://w0.peakpx.com/wallpaper/830/1014/HD-wallpaper-sneakers-shoes-legs-asphalt-tablet-laptop-background.jpg'}/>
       <Recommended handleClick={handleClick}/>
+
+      <Products result={result}/>
+      <Products result={result}/>
+      <Products result={result}/>
       <Products result={result}/>
     </div>
   );
 }
+
+// this is qa branch line 
+
+// this is feature a branch comment 
 
 export default App;

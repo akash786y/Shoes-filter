@@ -13,6 +13,18 @@ function Category({handleChange}) {
                     <input onChange={handleChange} type='radio' name='test' value=''/>
                     <span className='checkmark'/>All
                 </label>
+                <label className="sidebar-label-container">
+                    <input onChange={handleChange} type='radio' name='test' value=''/>
+                    <span className='checkmark'/>All
+                </label>
+                <label className="sidebar-label-container">
+                    <input onChange={handleChange} type='radio' name='test' value=''/>
+                    <span className='checkmark'/>All
+                </label>
+                <label className="sidebar-label-container">
+                    <input onChange={handleChange} type='radio' name='test' value=''/>
+                    <span className='checkmark'/>All
+                </label>
 
                 <Input
                     handleChange={handleChange}
