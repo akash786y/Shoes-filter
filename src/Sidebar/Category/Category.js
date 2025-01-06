@@ -4,6 +4,8 @@ import './Category.css'
 
 function Category({handleChange}) {
 
+    console.log('this is in main')
+
     return (
         <div>
             <h2 className='sidebar-tite'>Category</h2>
