@@ -45,6 +45,8 @@ function App() {
       filteredProducts = filteredItems
     }
 
+    console.log('this b1 commit')
+
     //SelectedFilter 
     if(selected){
       filteredProducts = filteredProducts.filter(
