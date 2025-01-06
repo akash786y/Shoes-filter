@@ -37,6 +37,8 @@ function App() {
   function filteredData(products, selected, query){
     let filteredProducts = products
 
+    console.log('This is a commit in main branch ')
+
     //Filtering input items 
     if(query){
       filteredProducts = filteredItems
