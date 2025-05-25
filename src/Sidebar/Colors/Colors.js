@@ -45,12 +45,6 @@ function Colors({ handleChange }) {
           title='White'
           name='test3'
         />
-        <Input
-          handleChange={handleChange}
-          value='green'
-          title='Green'
-          name='test3'
-        />
       </div>
     </div>
   )
