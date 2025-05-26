@@ -37,7 +37,19 @@ function Colors({ handleChange }) {
           handleChange={handleChange}
           value='black'
           title='Black'
-          name='test3'
+          name='test22'
+        />
+        <Input
+          handleChange={handleChange}
+          value='black'
+          title='Black'
+          name='test66'
+        />
+        <Input
+          handleChange={handleChange}
+          value='black'
+          title='Black'
+          name='test44'
         />
         <Input
           handleChange={handleChange}
@@ -49,12 +61,6 @@ function Colors({ handleChange }) {
           handleChange={handleChange}
           value='white'
           title='White'
-          name='test3'
-        />
-        <Input
-          handleChange={handleChange}
-          value='green'
-          title='Green'
           name='test3'
         />
       </div>

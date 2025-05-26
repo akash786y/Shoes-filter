@@ -39,6 +39,9 @@ function App() {
   function filteredData(products, selected, query){
     let filteredProducts = products
 
+    console.log('I am adding this feature')
+
+
     //Filtering input items 
     if(query){
       filteredProducts = filteredItems
