@@ -36,7 +36,7 @@ function Category({handleChange}) {
                 />
                 <Input
                     handleChange={handleChange}
-                    name='test'
+                    name='testy'
                     title='Flats'
                     value='flats'
                 />
