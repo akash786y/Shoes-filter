@@ -14,13 +14,13 @@
     height: 350px;
     /* Set the desired height for your hero section */
     overflow: hidden;
-    margin-left: 280px;
+    margin-left: 180px;
     /* Adjust the margin based on the width of your Sidebar */
 }
 
 .hero-tainter {
     position: relative;
-    height: 350px;
+    height: 540px;
     /* Set the desired height for your hero section */
     overflow: hidden;
     margin-left: 280px;
@@ -28,6 +28,20 @@
 }
 
 .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-good-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-bad-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
