@@ -17,6 +17,24 @@ function Colors({ handleChange }) {
         />
         <Input
           handleChange={handleChange}
+          value='red'
+          title='Red'
+          name='test3'
+        />
+        <Input
+          handleChange={handleChange}
+          value='red'
+          title='Red'
+          name='test3'
+        />
+        <Input
+          handleChange={handleChange}
+          value='red'
+          title='Red'
+          name='test3'
+        />
+        <Input
+          handleChange={handleChange}
           value='black'
           title='Black'
           name='test3'

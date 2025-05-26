@@ -55,6 +55,18 @@ function Category({handleChange}) {
                 <Input
                     handleChange={handleChange}
                     name='test'
+                    title='Heels'
+                    value='heels'
+                />
+                <Input
+                    handleChange={handleChange}
+                    name='test'
+                    title='Heels'
+                    value='heels'
+                />
+                <Input
+                    handleChange={handleChange}
+                    name='test'
                     title='Flats'
                     value='flats'
                 />

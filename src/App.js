@@ -23,7 +23,9 @@ function App() {
     product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) !== -1
   )
 
-  //Remdio filter
+
+
+  // raaadio filterrr
   const handleChange= event =>{
     setSelectedCategory(event.target.value)
   }
