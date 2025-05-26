@@ -20,7 +20,7 @@ function Category({handleChange}) {
                     handleChange={handleChange}
                     name='test'
                     title='Running'
-                    value='sneakers'
+                    value='neakers'
                 />
                 <Input
                     handleChange={handleChange}
